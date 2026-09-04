@@ -1,10 +1,15 @@
-     :root {
+   :root {
     --ink:black;
     --muted:white;
     --cream:gray;
  }
     body {
     margin: 30px;
+    color: var(--ink);
+    background: var(--black);
+}
+   main {
+   margin: 30px;
     color: var(--ink);
     background: var(--black);
 }

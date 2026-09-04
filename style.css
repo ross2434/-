@@ -5,14 +5,20 @@
             --highlight: #white;
             --accent: #df694e;
             --line: #d8ddd6;
+            --shadow: rgba(0, 0, 0, 0.1);
         }
         * {
+            margin: 0;
+            padding: 0;
             box-sizing: border-box;
         }
         body {
             margin: 30px;
             color: var(--ink);
             background: var(--cream);
+        }
+        a {
+            color: inherit;
         }
         p{
             line-height: 1.6;
@@ -45,4 +51,7 @@
             border: 1px solid var(--accent);
             width: fit-content;
             text-align: center; 
+        }
+        html {
+            scroll-behavior: smooth;
         }

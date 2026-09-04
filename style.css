@@ -17,9 +17,6 @@
         p{
             line-height: 1.6;
             color: var(--accent);
-            strong {
-                color: red;
-            }
         }
         h1, h2, h3 {
             text-align: center;

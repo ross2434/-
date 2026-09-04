@@ -1,0 +1,51 @@
+        :root {
+            --ink: #17201d;
+            --muted: #68736e;
+            --cream: #f5f2eb;
+            --highlight: #white;
+            --accent: #df694e;
+            --line: #d8ddd6;
+        }
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 30px;
+            color: var(--ink);
+            background: var(--cream);
+        }
+        p{
+            line-height: 1.6;
+            color: var(--accent);
+            strong {
+                color: red;
+            }
+        }
+        h1, h2, h3 {
+            text-align: center;
+            margin: 0;
+        }
+        button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: var(--accent);
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+        li {
+            margin: 5px auto;
+            display: block;
+            padding: 5px 5px;
+            background-color: var(--line);
+            border: 1px solid var(--accent);
+            width: fit-content;
+            text-align: center; 
+        }
